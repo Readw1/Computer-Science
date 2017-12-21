@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Package
+comment1.params=inCode\ inTime\ inprior
+comment1.target=Package(java.lang.String,\ Time,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getCode()
+comment3.params=
+comment3.target=Time\ getTime()
+comment4.params=
+comment4.target=int\ getPriority()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

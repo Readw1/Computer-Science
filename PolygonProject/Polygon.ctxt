@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=Polygon
+comment1.params=v
+comment1.target=Polygon(java.util.ArrayList)
+comment1.text=\ \n\ Obtains\ a\ Polygon\ from\ an\ ArrayList\ of\ Points\n
+comment10.params=
+comment10.target=void\ putPointsInOrder()
+comment11.params=l\ p
+comment11.target=Point\ closestX(Point,\ java.util.ArrayList)
+comment11.text=\n\ Changes\ order\ of\ verts\ to\ place\ them\ in\ counter-clockwise\ order\ *BONUS\ Assignment*\n
+comment2.params=v
+comment2.target=Polygon(double[])
+comment2.text=\n\ Obtains\ a\ Polygon\ from\ an\ array\ of\ doubles\n\ Array\ contains\ x0,\ y0,\ x1,y1,x2,y2,...,xn-1,yn-1,\ xi\ \=\ ith\ x-coordinate,\ yi\ similar\n
+comment3.params=numpoints
+comment3.target=Polygon(int)
+comment3.text=\n\ Constructor,\ user\ enters\ number\ of\ points,\ then\ enters\ each\ point\ coordinate\ by\ coordinate\ using\ Scanner\n
+comment4.params=
+comment4.target=Polygon()
+comment5.params=
+comment5.target=double\ calcPerim()
+comment5.text=\n\ Returns\ the\ perimeter\ of\ the\ given\ Polygon.\n
+comment6.params=
+comment6.target=double\ findLongestEdge()
+comment6.text=\ \n\ prints\ the\ indices\ of\ Points\ in\ this\ Polygon\ which\ represent\ the\ longest\ edge,\ returns\ that\ distance\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\n\ returns\ String\ containing\ all\ vertices;\ i.e,\ (3.0,\ 1.0)\ (5.2,\ 3.7)\ \u2026\u201D\n
+comment8.params=
+comment8.target=double\ findLongestDiagonal()
+comment8.text=\n\ prints\ the\ indices\ of\ Points\ in\ this\ Polygon\ which\ are\ the\ largest\ distance\ apart,\ returns\ that\ distance\n
+comment9.params=
+comment9.target=double\ calcArea()
+comment9.text=\n\ Returns\ the\ area\ of\ the\ given\ Polygon\u2014calculated\ recursively\n\ Pre\:\ Polygon\ is\ convex\n\ Pre\:\ Coordinates\ are\ in\ clockwise\ order\n
+numComments=12

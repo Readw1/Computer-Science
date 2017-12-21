@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Time
+comment1.params=inHours\ inMinutes
+comment1.target=Time(int,\ int)
+comment2.params=inTime
+comment2.target=Time(java.lang.String)
+comment3.params=
+comment3.target=int\ getMins()
+comment4.params=
+comment4.target=int\ getHours()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

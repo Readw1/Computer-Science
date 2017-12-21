@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Point
+comment0.text=\n\ A\ class\ to\ store\ two\ coordinates\ of\ a\ point,\ both\ doubles.\n
+comment1.params=xIn\ yIn
+comment1.target=Point(double,\ double)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Point\n
+comment2.params=p
+comment2.target=Point(Point)
+comment3.params=
+comment3.target=double\ getX()
+comment3.text=\n\ returns\ the\ x\ coordinate\ of\ the\ point\n
+comment4.params=
+comment4.target=double\ getY()
+comment4.text=\n\ returns\ the\ y\ coordinate\ of\ the\ point\n
+comment5.params=p
+comment5.target=double\ calcDistance(Point)
+comment5.text=\n\ Returns\ distance\ between\ this\ point\ and\ point\ p.\ \ \n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ returns\ a\ String\ representation\ of\ the\ point,\ i.e.,\ "(x,y)"\n
+numComments=7

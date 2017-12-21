@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=ALPriQ
+comment1.params=p
+comment1.target=void\ enQ(PriString)
+comment2.params=s\ i
+comment2.target=void\ enQ(java.lang.String,\ int)
+comment3.params=
+comment3.target=int[]\ getPriCounts()
+comment4.params=
+comment4.target=PriString\ deQ()
+comment5.params=
+comment5.target=PriString\ peek()
+comment6.params=
+comment6.target=boolean\ isEmpty()
+comment7.params=
+comment7.target=int\ getSize()
+comment8.params=
+comment8.target=void\ printQueue()
+comment9.params=
+comment9.target=void\ printPriQ()
+numComments=10
