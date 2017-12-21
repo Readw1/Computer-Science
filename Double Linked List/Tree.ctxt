@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Tree
+comment1.params=c
+comment1.target=void\ addNode(java.lang.Comparable)
+comment2.params=c\ temp
+comment2.target=TNode\ addNode(java.lang.Comparable,\ TNode)
+comment3.params=c
+comment3.target=TNode\ search(java.lang.Comparable)
+comment4.params=c\ t
+comment4.target=TNode\ search(java.lang.Comparable,\ TNode)
+comment5.params=
+comment5.target=TNode\ getRoot()
+comment6.params=
+comment6.target=int\ getSize()
+comment7.params=c
+comment7.target=int\ getSizeFromNode(java.lang.Comparable)
+comment8.params=n
+comment8.target=int\ getSize(TNode)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10

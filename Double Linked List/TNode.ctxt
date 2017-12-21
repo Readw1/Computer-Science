@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=TNode
+comment1.params=inFo\ inLeft\ inRight
+comment1.target=TNode(java.lang.Comparable,\ TNode,\ TNode)
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment2.params=inFo
+comment2.target=TNode(java.lang.Comparable)
+comment3.params=
+comment3.target=int\ getSizeFromNode()
+comment4.params=
+comment4.target=java.lang.String\ getStringFromNode()
+comment5.params=
+comment5.target=TNode\ getLeft()
+comment6.params=
+comment6.target=TNode\ getRight()
+comment7.params=
+comment7.target=java.lang.Comparable\ getInfo()
+comment8.params=n
+comment8.target=void\ setLeft(TNode)
+comment9.params=n
+comment9.target=void\ setRight(TNode)
+numComments=11

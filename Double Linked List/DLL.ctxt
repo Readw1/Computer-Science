@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=DLL
+comment1.params=ob
+comment1.target=void\ addToFront(java.lang.Object)
+comment2.params=ob
+comment2.target=void\ addToEnd(java.lang.Object)
+comment3.params=
+comment3.target=int\ getNumNodes()
+comment4.params=loc
+comment4.target=java.lang.Object\ getInfo(int)
+comment5.params=
+comment5.target=java.lang.Object\ removeEndNode()
+comment6.params=
+comment6.target=java.lang.Object\ removeFirstNode()
+comment7.params=ob\ n
+comment7.target=void\ addToSpotN(java.lang.Object,\ int)
+comment8.params=n
+comment8.target=java.lang.Object\ removeNode(int)
+numComments=9

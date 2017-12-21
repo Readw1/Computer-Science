@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=DNode
+comment1.params=inOb\ inNext\ inPrev
+comment1.target=DNode(java.lang.Object,\ DNode,\ DNode)
+comment2.params=inOb
+comment2.target=DNode(java.lang.Object)
+comment3.params=
+comment3.target=DNode\ getNext()
+comment4.params=
+comment4.target=DNode\ getPrev()
+comment5.params=
+comment5.target=java.lang.Object\ getInfo()
+comment6.params=n
+comment6.target=void\ setNext(DNode)
+comment7.params=n
+comment7.target=void\ setPrev(DNode)
+numComments=8
