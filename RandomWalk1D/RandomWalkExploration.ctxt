@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=RandomWalkExploration
+comment1.params=numWalks
+comment1.target=void\ getDistributions(int)
+comment2.params=numWalks\ numSteps
+comment2.target=void\ getNumTimesReturned(int,\ int)
+comment2.text=\n\ Number\ of\ times\ it\ reaches\ 0\ again\ in\ a\ walk\ with\ numSteps\ steps\n
+numComments=3
