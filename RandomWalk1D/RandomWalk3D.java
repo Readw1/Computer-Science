@@ -1,71 +1,92 @@
 import java.lang.Math;
-public class RandomWalk2D
+public class RandomWalk3D
 {
     private int x;
     private int y;
+    private int z;
     
     private double pdown;
     private double pup;
     private double pleft;
     private double pright;
+    private double pin;
+    private double pout;
     
     int safeguard;
     /**
      * Constructor
      */
-    public RandomWalk2D(){
+    public RandomWalk3D(){
         x = 0;
         y = 0;
+        z = 0;
         
-        pdown = .25;
-        pup = .5;
-        pleft = .75;
-        pright = 1;
+        pdown = 1.0/6;
+        pup = 2.0/6;
+        pleft = 3.0/6;
+        pright = 4.0/6;
+        pin = 5.0/6;
+        pout = 6.0/6;
         
         safeguard = 1000000;
+        
     }
     
-    public RandomWalk2D(int safe){
+    public RandomWalk3D(int safe){
         x = 0;
         y = 0;
+        z = 0;
         
-        pdown = .25;
-        pup = .5;
-        pleft = .75;
-        pright = 1;
+        pdown = 1.0/6;
+        pup = 2.0/6;
+        pleft = 3.0/6;
+        pright = 4.0/6;
+        pin = 5.0/6;
+        pout = 6.0/6;
         
         safeguard = safe;
+        
     }
     
     /**
-     * Moves one step up, down, left, or right.
-     */
+     * Moves 1 step up, down, left, right, in, or out.
+     */ 
     public int[] move(){
         double inProb = Math.random();
-        if (inProb < .25){
+        if (inProb < pdown){
             y--;
         }
-        else if (inProb < .5){
+        else if (inProb < pup){
             y ++;
         }
-        else if (inProb <.75){
+        else if (inProb < pleft){
             x--;
         }
-        else {
+        else if (inProb<pright){
             x++;
         }
-        int[]loc = new int[2];
+        else if(inProb<pin){
+            z--;
+        }
+        else if (inProb<pout){
+            z++;
+        }
+        else{
+            System.err.println("Incorrect probability");
+        }
+        int[]loc = new int[3];
         loc[0] = x;
         loc[1] = y;
+        loc[2] = z;
         
         return loc;
     }
     
     /**
-     * Moves num steps up, down, left, or right
-     */    
+     * Moves num steps up, down, left, right, in, or out.
+     */ 
     public int[] move(int num){
-        int[]loc = new int[2];
+        int[]loc = new int[3];
         for(int c = 0; c<num;  c++){
             loc = this.move();
         }
@@ -73,17 +94,17 @@ public class RandomWalk2D
     }
     
     /**
-     * Moves num steps up, down, left, or right. Prints step and location if pr is true.
-     */
+     * Moves num steps up, down, left, right, in, or out. Prints out locations if pr is true.
+     */ 
     public int[] move(int num, boolean pr){
-        int[]loc = new int[2];
+        int[]loc = new int[3];
         if(pr = false){
             loc = this.move(num);
         }
         else{
             for(int c= 0; c<num; c++){
                 loc = this.move();
-                System.out.println("Step " + (c+1) + ", (" + x + ", " + y + ")");
+                System.out.println("Step " + (c+1) + ", (" + x + ", " + y + ", " + z + ")");
             }
             
         }
@@ -97,9 +118,10 @@ public class RandomWalk2D
         int count = 0;
         int oldX = x;
         int oldY = y;
+        int oldZ = z;
         move();
         count++;
-        while ((oldX!=x)||(oldY!=y)){
+        while ((oldX!=x)||(oldY!=y)||(oldZ!=z)){
             move();
             count++;
             if(count>=safeguard){
@@ -116,7 +138,7 @@ public class RandomWalk2D
         int count = 1;
         move();
         
-        while((x!=0)||(y!=0)){
+        while((x!=0)||(y!=0)||(z!=0)){
             move();
             count++;
             if(count>=safeguard){

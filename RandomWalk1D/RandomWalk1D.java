@@ -3,6 +3,7 @@ public class RandomWalk1D
 {
     private int loc;
     private double negProb;
+    int safeguard = 1000000;
     /**
      * Constructors
      */
@@ -24,7 +25,7 @@ public class RandomWalk1D
      */
     public int move(){
         double inProb = Math.random();
-        if (inProb < .5){
+        if (inProb < negProb){
             loc--;
         }
         else{
@@ -106,7 +107,22 @@ public class RandomWalk1D
     }
     
     
-    
+    /**
+     * Determines whether the walk returns to 0 within safeguard steps. (true if so, false if not)
+     */
+    public boolean walkReturns(){
+        int count = 1;
+        move();
+        
+        while(loc!=0){
+            move();
+            count++;
+            if(count>=safeguard){
+                return false;
+            }
+        }
+        return true;
+    }
     
     
 }

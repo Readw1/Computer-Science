@@ -1,19 +1,19 @@
 #BlueJ class context
-comment0.target=RandomWalk2D
+comment0.target=RandomWalk3D
 comment1.params=
-comment1.target=RandomWalk2D()
+comment1.target=RandomWalk3D()
 comment1.text=\n\ Constructor\n
 comment2.params=safe
-comment2.target=RandomWalk2D(int)
+comment2.target=RandomWalk3D(int)
 comment3.params=
 comment3.target=int[]\ move()
-comment3.text=\n\ Moves\ one\ step\ up,\ down,\ left,\ or\ right.\n
+comment3.text=\n\ Moves\ 1\ step\ up,\ down,\ left,\ right,\ in,\ or\ out.\n
 comment4.params=num
 comment4.target=int[]\ move(int)
-comment4.text=\n\ Moves\ num\ steps\ up,\ down,\ left,\ or\ right\n
+comment4.text=\n\ Moves\ num\ steps\ up,\ down,\ left,\ right,\ in,\ or\ out.\n
 comment5.params=num\ pr
 comment5.target=int[]\ move(int,\ boolean)
-comment5.text=\n\ Moves\ num\ steps\ up,\ down,\ left,\ or\ right.\ Prints\ step\ and\ location\ if\ pr\ is\ true.\n
+comment5.text=\n\ Moves\ num\ steps\ up,\ down,\ left,\ right,\ in,\ or\ out.\ Prints\ out\ locations\ if\ pr\ is\ true.\n
 comment6.params=
 comment6.target=int\ stepsUntilReturn()
 comment6.text=\n\ Counts\ the\ amount\ of\ steps\ it\ takes\ for\ a\ walk\ to\ return\ to\ the\ position\ it\ was\ when\ it\ started\n
