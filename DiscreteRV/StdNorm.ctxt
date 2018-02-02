@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=StdNorm
+comment1.params=
+comment1.target=StdNorm()
+comment1.text=\n\ Constructors\ for\ objects\ of\ class\ StdNorm\n
+comment2.params=rIn
+comment2.target=StdNorm(double)
+comment3.params=x
+comment3.target=double\ f(double)
+comment4.params=
+comment4.target=double\ genStdNorm()
+comment5.params=
+comment5.target=double\ zigg()
+numComments=6

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=FruitExplorer
+comment1.params=g\ o\ t\ num
+comment1.target=void\ explore(int,\ int,\ int,\ int)
+comment1.text=\n\ Takes\ num\ grapefruits,\ num\ oranges,\ num\ tangerines,\ and\ num\ trials\n\ Prints\ out\ the\ weights\ of\ the\ biggest\ box,\ the\ smallest\ box,\ and\ the\ average\n
+numComments=2

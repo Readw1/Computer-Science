@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=NormDev
+comment1.params=muIn\ sigIn
+comment1.target=NormDev(double,\ double)
+comment2.params=muIn\ sigIn\ rIn
+comment2.target=NormDev(double,\ double,\ double)
+comment3.params=
+comment3.target=double\ genNorm()
+numComments=4

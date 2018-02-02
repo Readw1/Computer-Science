@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=DiscreteRV
+comment1.params=v\ p
+comment1.target=DiscreteRV(double[],\ double[])
+comment2.params=n
+comment2.target=DiscreteRV(int)
+comment2.text=\n\ Creates\ a\ random\ variable\ with\ values\ 1\ to\ n,\ each\ equally\ likely\ (probs\ \=\ 1/n)\n
+comment3.params=
+comment3.target=DiscreteRV()
+comment3.text=\n\ Asks\ user\ for\ number\ of\ values,\ and\ each\ value/probability\ pair\n
+comment4.params=
+comment4.target=double\ calcMean()
+comment4.text=\n\ Calculates\ the\ mean\n
+comment5.params=
+comment5.target=double\ calcMedian()
+comment5.text=\n\ Calculates\ the\ median\n
+comment6.params=
+comment6.target=double\ calcStdDev()
+comment6.text=\n\ Calculates\ the\ standard\ Deviation\n
+comment7.params=
+comment7.target=double\ getRandomValue()
+comment7.text=\n\ Gives\ a\ number\ in\ the\ distribution\ randomly\n
+numComments=8

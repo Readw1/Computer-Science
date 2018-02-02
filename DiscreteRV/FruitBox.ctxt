@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=FruitBox
+comment1.params=inG\ inO\ inT
+comment1.target=FruitBox(int,\ int,\ int)
+comment1.text=\n\ Takes\ num\ grapefruits,\ num\ oranges,\ and\ num\ tangerines\n\ Creates\ those\ numbers\ of\ normally\ distributed\ weights\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=in
+comment3.target=double\ truncate(double)
+comment3.text=\n\ Shortens\ a\ double\ to\ the\ tenths\ place\ (rounds\ up\ if\ the\ hundreths\ place\ number\ >\=5)\n
+comment4.params=
+comment4.target=java.lang.String\ getListings()
+comment4.text=\n\ Prints\ out\ the\ weights\ of\ each\ fruit\ stored\ in\ the\ arrays\n
+comment5.params=
+comment5.target=double\ getTotalWeight()
+comment5.text=\n\ Gets\ the\ total\ weight\ of\ this\ box\n
+comment6.params=
+comment6.target=double\ getAvgWeight()
+comment6.text=\n\ Gets\ the\ average\ weight\ of\ a\ fruit\ in\ this\ box\n
+comment7.params=
+comment7.target=double\ getMaxWeight()
+comment7.text=\n\ Gets\ the\ largest\ fruit\ in\ the\ box\n
+comment8.params=
+comment8.target=double\ getMinWeight()
+comment8.text=\n\ Gets\ the\ smallest\ fruit\ in\ the\ box\n
+numComments=9

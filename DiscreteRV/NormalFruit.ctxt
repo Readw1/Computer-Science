@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=NormalFruit
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=double\ getGWt()
+comment2.text=\n\ Gets\ a\ normally\ generated\ weight\ for\ a\ grapefruit\n
+comment3.params=
+comment3.target=double\ getOWt()
+comment3.text=\n\ Gets\ a\ normally\ generated\ weight\ for\ an\ orange\n
+comment4.params=
+comment4.target=double\ getTWt()
+comment4.text=\n\ Gets\ a\ normally\ generated\ weight\ for\ a\ tangerine\n
+numComments=5
