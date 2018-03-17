@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=MLNode
+comment1.params=in
+comment1.target=MLNode(Info)
+comment2.params=
+comment2.target=Info\ getInfo()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=
+comment4.target=MLNode\ getNextAcct()
+comment5.params=
+comment5.target=MLNode\ getNextName()
+comment6.params=inAc
+comment6.target=void\ setNextAcct(MLNode)
+comment7.params=inN
+comment7.target=void\ setNextName(MLNode)
+numComments=8

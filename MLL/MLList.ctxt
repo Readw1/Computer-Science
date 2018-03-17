@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MLList
+comment1.params=
+comment1.target=MLList()
+comment2.params=m
+comment2.target=void\ add(MLNode)
+comment3.params=m\ temp
+comment3.target=void\ add(MLNode,\ MLNode)
+comment4.params=m\ temp
+comment4.target=void\ add2(MLNode,\ MLNode)
+comment5.params=
+comment5.target=void\ print()
+numComments=6
